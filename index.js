@@ -26,8 +26,8 @@ Object.assign(Linable.preset.extends, {
 const map = `
   /+   +-+  +--+/
    |   */|  |  |
-   +--:"+"--*-:+X
-      +-++----X
+   +--:"+"--*-:++
+      +-++----X-+
 `.match(/(^|\n).+/g).map(cur => cur.replace(/\n/, '').split(''));
 
 const line = new Linable(
